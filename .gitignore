@@ -1,0 +1,30 @@
+echo "# MySQL data directory
+.mysql-data/
+mysql-data/
+
+# Database files
+*.sock
+*.pid
+*.log
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Build files
+target/
+build/
+*.jar
+*.war
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Docker volumes
+docker-data/" > .gitignore
